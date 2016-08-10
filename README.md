@@ -1,6 +1,8 @@
 Spree Api Auth
 ============
 
+Do not use yet.  Attempt to bring up to date with latest Spree API version
+
 Spree's Rest API add authentication API.
 
     $ /api/users/sign_up
@@ -20,3 +22,5 @@ Coding now.
 Copyright (c) 2012 Masahiro Saito, released under the New BSD License
 
 Updated to support Spree v2.4.1 by Sanad Liaquat (sanadhussain@gmail.com)
+
+Forked from https://github.com/sliaquat/spree_api_auth by mdudzik
