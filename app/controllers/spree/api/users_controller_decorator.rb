@@ -31,7 +31,7 @@ module Spree
           @user.generate_spree_api_key! if @user.spree_api_key.blank?
         end
 
-  
+
         def user_params
           params.require(:user).permit(:email, :password, :password_confirmation)
         end
