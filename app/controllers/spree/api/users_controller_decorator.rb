@@ -1,5 +1,6 @@
 module Spree
   module Api
+    module V1
 
     UsersController.class_eval do
 
