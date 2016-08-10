@@ -11,7 +11,7 @@ module Spree
           @user = Spree::User.find_by_email(params[:user][:email])
 
           if @user.present?
-            render "spree/api/users/user_exists", :status => 401 and return
+            render "spree/api/v1/users/user_exists", :status => 401 and return
           end
 
           @user = Spree::User.new(user_params)
